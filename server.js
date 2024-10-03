@@ -41,7 +41,7 @@ function validateUser(req, res, next) {
 }
 
 // Add the userRouter
-const userRouter = require('../node-react/Routers/userRouter');
+const userRouter = require('../backend-node/Routers/userRouter');
 app.use('/user', userRouter);
 
 // Handle root endpoint
